@@ -1,7 +1,16 @@
-ul.list {
+.nav-container {
     list-style-type: none;
-    margin-top: auto;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(255, 203, 32);
     font-size: large;
+}
+
+.nav-container li{
+    display: inline
+}
+
+.nav-container li a{
+    text-decoration: none;
+    padding: 14px 16px;
 }
